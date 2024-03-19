@@ -1,44 +1,29 @@
-# Data Engineering Project Template
-
-This is a template you can use for your next data engineering portfolio project. To copy it, log into GitHub and click on the **Use this template** button above.
-
-![GitHub use this template button](use-this-template-button.png)
+# Data Engineering Project
 
 ## Overview
 
-Here you want to write a short overview of the goals of your project and how it works at a high level. If possible, include one or two images of the end product and architecture diagram (see examples below). diagrams.net is a great tool for creating architecture diagrams.
+The goal of this project was to create a database of graded Pokemon cards from eBay using Python web scraping and the PokeAPI. I cleaned the collected data in MySQL and used Postman to test the API connection. My future plan is to automate and schedule the Python script for continuous data collection.
+
+This data will allow me to investigate the question: "Which Pokemon cards from different eras and grading companies consistently sell for the highest prices on eBay?"  By analyzing factors like listing price, grading company, and card edition, I hope to identify trends that can help determine the rarest and most sought-after Pokemon cards.
+
 
 ### Data Visualization
 
-![Example dashboard image](example-dashboard.png)
+<img width="908" alt="image" src="https://github.com/Karan-Manhas/PokemonCardMarketDynamics/assets/94873627/60571207-adb1-4092-bfb4-8adf2231880c">
+
 
 ### Data Architecture
 
 ![Example architecture image](example-architecture.png)
 
-If you decide to include this, you should also talk a bit about why you chose the architecture and tools you did for this project.
+![deproject](https://github.com/Karan-Manhas/PokemonCardMarketDynamics/assets/94873627/6a0ee01c-4d77-4f87-ae6b-7e0202d623ef)
 
-## Prerequisites
+- The current architecture can easily be modified to be autoamted using Cloud Schedulers in order to prevent the manual exporting. This method was chosen in order to obtain the fastest result.
 
-Directions or anything needed before running the project.
-
-- Prerequisite 1
-- Prerequisite 2
-- Prerequisite 3
-
-## How to Run This Project
-
-Replace the example step-by-step instructions with your own.
-
-1. Install x packages
-2. Run command: `python x`
-3. Make sure it's running properly by checking z
-4. To clean up at the end, run script: `python cleanup.py`
 
 ## Lessons Learned
 
-It's good to reflect on what you learned throughout the process of building this project. Here you might discuss what you would have done differently if you had more time/money/data. Did you end up choosing the right tools or would you try something else next time?
-
+To further enhance this project, in the future I will use Apache Airflow to set schedules and run the python script itself.
 ## Contact
 
-Please feel free to contact me if you have any questions at: LinkedIn, Twitter
+Please feel free to contact me if you have any questions at: karanmanhas711@gmail.com 
