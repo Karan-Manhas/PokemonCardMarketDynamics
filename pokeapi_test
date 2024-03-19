@@ -1,0 +1,14 @@
+import requests as rq
+import json
+
+response = rq.get("https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0")
+print(response.status_code)
+# print(response.json()) # Prints response from API
+
+
+def jsonprint(obj):
+  text = json.dumps(obj, sort_keys=True, indent=4)
+  print(text)
+
+
+jsonprint(response.json())
