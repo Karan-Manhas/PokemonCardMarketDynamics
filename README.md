@@ -14,8 +14,6 @@ This data will allow me to investigate the question: "Which Pokemon cards from d
 
 ### Data Architecture
 
-![Example architecture image](example-architecture.png)
-
 ![deproject](https://github.com/Karan-Manhas/PokemonCardMarketDynamics/assets/94873627/6a0ee01c-4d77-4f87-ae6b-7e0202d623ef)
 
 - The current architecture can easily be modified to be autoamted using Cloud Schedulers in order to prevent the manual exporting. This method was chosen in order to obtain the fastest result.
@@ -24,6 +22,8 @@ This data will allow me to investigate the question: "Which Pokemon cards from d
 ## Lessons Learned
 
 To further enhance this project, in the future I will use Apache Airflow to set schedules and run the python script itself.
+
+
 ## Contact
 
 Please feel free to contact me if you have any questions at: karanmanhas711@gmail.com 
