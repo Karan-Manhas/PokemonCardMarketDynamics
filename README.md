@@ -26,4 +26,4 @@ To further enhance this project, in the future I will use Apache Airflow to set 
 
 ## Contact
 
-Please feel free to contact me if you have any questions at: karanmanhas711@gmail.com 
+Please feel free to contact me if you have any questions at: karanmanhas711@gmail.com or https://www.linkedin.com/in/karan-manhas/ (This one preferably!)
